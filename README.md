@@ -1,4 +1,4 @@
-<img src="image.jpg" alt="FlexBox" width="300" height="300" style="object-fit:cover;">
+<img src="image.jpg" alt="FlexBox">
 
 ### Flexbox (short for Flexible Box Layout) is a CSS layout model that allows you to design complex layouts with a more efficient and predictable way than traditional CSS positioning and float methods. Flexbox properties are used to control the layout and alignment of elements within a flex container. Here is a list of the main flexbox properties:
 
