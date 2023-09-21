@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.main{
+    width: 80%;
+    margin: 20px auto;
+}
+h2{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: teal;
+}
+img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.cards{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.single-card{
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+    flex: 0 0 32%;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.single-card h4{
+    font-size: 26px;
+    margin: 10px 0px;
+}
+.single-card p{
+    font-size: 18px;
+}

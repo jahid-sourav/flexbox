@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.main{
+    width: 80%;
+    margin: 30px auto;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.box{
+    background-color: teal;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+.single-box{
+    border: 1px solid blanchedalmond;
+    background-color: tomato;
+    padding: 10px;
+    flex-grow: 1;
+}
+.single-box:nth-child(2){
+    flex-shrink: 2;
+}

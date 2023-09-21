@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.main{
+    width: 80%;
+    margin: 30px auto;
+    border: 1px solid rebeccapurple;
+    background-color: teal;
+}
+.main h1{
+    text-align: center;
+    margin: 20px 0px;
+}
+.box{
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: flex-start; */
+    align-items: center;
+    /* align-items: flex-end; */
+    /* align-items: stretch; */
+}
+.single-box{
+    padding: 20px;
+    background-color: orange;
+    width: 300px;
+}
